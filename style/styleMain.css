@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+
+.section-background {
+    background-color: white;
+    width: 800px;
+    height: 669px;
+    color: rgb(0, 255, 234);
+}
