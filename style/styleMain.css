@@ -1,10 +1,29 @@
 body {
-    background-color: black;
+    background-image:url('../img/Img_background.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .section-background {
     background-color: white;
-    width: 800px;
+    width: 49%;
     height: 669px;
     color: rgb(0, 255, 234);
+    box-shadow: 8px 0px 5px rgba(0, 0, 0, 0.39);
+    position: absolute;
 }
+
+.section-background .text {
+    text-align: center;
+    padding-bottom: 25px;
+}
+.section-background .button {
+    text-align: center;
+}
+.section-background .container-log {
+    border: solid 1px rgba(0, 0, 0, 0.137);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.445) 5px 5px 5px;
+    margin: 190px 160px 50px;
+    padding: 60px;
+} 
