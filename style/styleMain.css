@@ -11,7 +11,7 @@ body {
     background-size: cover;
     width: 49%;
     height: 669px;
-    color: rgb(0, 255, 234);
+    color: rgb(0, 0, 0);
     box-shadow: 8px 0px 5px rgba(0, 0, 0, 0.39);
     position: absolute;
 }
@@ -27,12 +27,15 @@ body {
 
 .section-background .button {
     text-align: center;
+    width: 250px;
+    padding-left: 40px;
 }
+
 .section-background .container-log {
     border: solid 1px rgba(0, 0, 0, 0.137);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.445) 5px 5px 5px;
-    margin: 190px 160px 50px;
-    padding: 60px;
+    margin: 190px 130px 45px;
+    padding: 40px;
     background-color: white;
 } 
