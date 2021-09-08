@@ -1,0 +1,44 @@
+body {
+    background-image: url('../img/img_brackground2.jpg');
+    background-size: cover;
+    background-position-y: 1000px;
+}
+
+.voltar{
+    width: 200px;
+}
+
+.voltar-background{
+    margin: 20px 50px 10px;
+    padding: 10px 10px 10px;
+    background: white;
+    width: 160px;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.voltar-background:hover {
+    background-color: rgba(255, 255, 255, 0.548);
+}
+
+.fa-chevron-left {
+    padding-right: 10px;
+}
+
+.link-voltar {
+    text-decoration-line: none;
+}
+
+.form {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px 50px 50px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.336) 5px 5px 5px;
+}
+
+.form-control {
+    width: 500px;
+}
