@@ -42,3 +42,12 @@ body {
 .form-control {
     width: 500px;
 }
+
+.entrar{
+    color: white;
+    text-decoration: none;
+}
+
+.entrar:hover{
+    color: white;
+}
