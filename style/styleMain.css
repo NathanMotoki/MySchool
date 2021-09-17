@@ -1,18 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image:url('../img/Img_background.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .section-background {
     background-color: white;
-    background-image: url('../img/img_brackground2.jpg');
     background-size: cover;
     width: 49%;
     height: 669px;
     color: rgb(0, 0, 0);
-    box-shadow: 8px 0px 5px rgba(0, 0, 0, 0.39);
     position: absolute;
 }
 
