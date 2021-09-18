@@ -1,3 +1,8 @@
 .navegacao {
     background-color: rgba(0, 162, 255, 0.267);
+    height: 50px;
+}
+
+.navegacao .nav {
+    padding-top: 5px;
 }
