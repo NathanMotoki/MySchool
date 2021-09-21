@@ -15,6 +15,7 @@
 }
 
 .coluna-um {
+    background-color: rgba(0, 162, 255, 0.267);
     width: 100%;
     height: 619px;
     border-right: 1px solid rgba(0, 0, 0, 0.048);
@@ -23,6 +24,10 @@
 .coluna-um li {
     width: 100%;
     margin-top: 15px;
+}
+
+.coluna-um a {
+    background-color: white;
 }
 
 .coluna-um a:active {
@@ -50,7 +55,7 @@
 li {
     list-style-type: none;
     text-decoration: none;
-    padding: 25px;
+    padding-top: 20px;
   }
 
   i {
@@ -59,8 +64,6 @@ li {
 
 .geral a {
     text-decoration: none;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.452);
-    border-radius: 100px;
     padding: 10px;
 }
 
@@ -69,19 +72,19 @@ li {
 }
 
 .coluna-dois-text a {
-    padding-right: 46%;
+    padding-right: 120px;
 }
 
 .coluna-tres-text a {
-    padding-right: 59%;
+    padding-right: 149px;
 }
 
 .coluna-quatro-text a {
-    padding-right: 46%;
+    padding-right: 122px;
 }
 
 .coluna-cinco-text a {
-    padding-right: 32%;
+    padding-right: 92px;
 }
 
 

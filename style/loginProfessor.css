@@ -1,7 +1,10 @@
 body {
-    background-image: url('../img/Img_background.jpg');
-    background-size: cover;
-    background-position-y: 1000px;
+    background-image: url('../img/Professor-back.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 70px;
+    background-position-x:25%;
 }
 
 .voltar{
@@ -18,7 +21,7 @@ body {
 }
 
 .voltar-background:hover {
-    background-color: rgba(255, 255, 255, 0.548);
+    background-color: rgba(0, 162, 255, 0.089);
 }
 
 .fa-chevron-left {
@@ -30,13 +33,14 @@ body {
 }
 
 .form {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.959);
     width: 500px;
     margin: auto;
     margin-top: 100px;
     padding: 50px 50px 50px;
     border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.336) 5px 5px 5px;
+    border: rgba(0, 0, 0, 0.123) solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.493) 5px 5px 5px;
 }
 
 .form-control {
