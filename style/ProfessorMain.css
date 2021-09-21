@@ -1,0 +1,93 @@
+.navegacao {
+    background-color: rgba(122, 0, 153, 0.336);
+    height: 50px;
+}
+
+.navegacao .nav {
+    padding-top: 5px;
+}
+
+.geral {
+    display:grid;
+    grid-template-columns: 20% 75% 5%;
+    height: 100%;
+    width: 100%;
+}
+
+.coluna-um {
+    background-color: rgba(122, 0, 153, 0.336);
+    width: 100%;
+    height: 619px;
+    border-right: 1px solid rgba(0, 0, 0, 0.048);
+}
+
+.coluna-um li {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.coluna-um a {
+    background-color: white;
+}
+
+.coluna-um a:active {
+    background-color: rgba(0, 162, 255, 0.267);
+}
+
+.coluna-um a:hover {
+    background-color: rgba(0, 162, 255, 0.267);
+}
+
+
+.coluna-dois {
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.048);
+    background-image: url("../img/professor-back-main.jpg");
+    background-size:70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.coluna-tres {
+    width: 100%;
+    
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+
+  i {
+      padding-right: 10px;
+  }
+
+.geral a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.coluna-um-text a {
+    padding-right: 50%;
+}
+
+.coluna-dois-text a {
+    padding-right: 126px;
+}
+
+.coluna-tres-text a {
+    padding-right: 147px;
+}
+
+.coluna-quatro-text a {
+    padding-right: 120px;
+}
+
+.coluna-cinco-text a {
+    padding-right: 97px;
+}
+
+
+
+
