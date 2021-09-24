@@ -7,8 +7,6 @@ body {
 }
 
 .section-background {
-    border: 1px solid rgba(0, 0, 0, 0.096);
-    box-shadow: rgba(0, 0, 0, 0.205) 1px 1px 1px;
     margin-top: 10%;
     width: 400px;
     height: 350px;
@@ -38,376 +36,34 @@ body {
     padding-top:20%;
 } 
 
-@media only screen and (max-device-width: 2516px) {
+@media screen and (max-width: 768px) {
     .section-background {
-        width: 600px;
-        height: 500px;
-        margin-top: 10%;
-        margin-left: 20%;
-        text-align: center;
+
+        margin: auto;
+        margin-top: 15%;
+        margin-left: 5%;
     }
 
     body {
-        background-size: 50%;
-        background-position-x: 95%;
-        background-position-y: 5%;
+        background-position:right;
+        background-position-y: -20%;
     }
-
-    .section-background .button {
-        display: grid;
-        padding-left: 41%;
-        position: absolute;
-    }
-
 }
 
-@media only screen and (max-device-width: 1830px) {
-    .section-background {
-        width: 600px;
-        height: 500px;
-        margin-top: 10%;
-        margin-left: 10%;
-        text-align: center;
+@media screen and (max-width: 600px) {
+    .section-background .text {
+        display: none;
+    }
+    .button {
+        margin: auto;
     }
 
     body {
-        background-size: 50%;
-        background-position-x: 95%;
-        background-position-y: 5%;
-    }
-
-    .section-background .button {
-        display: grid;
-        padding-left: 41%;
-        position: absolute;
-    }
-
-}
-
-@media only screen and (max-device-width: 1410px) {
-    .section-background {
-        width: 500px;
-        height: 400px;
-        margin-top: 10%;
-        margin-left: 10%;
-        text-align: center;
-    }
-
-    body {
-        background-size: 50%;
-        background-position-x: 95%;
-        background-position-y: 5%;
-    }
-
-    .section-background .button {
-        display: grid;
-        padding-left: 41%;
-        position: absolute;
-    }
-
-}
-
-@media only screen and (max-device-width: 1200px) {
-    .section-background {
-        width: 400px;
-        height: 350px;
-        margin-top: 12%;
-        margin-left: 10%;
-        text-align: center;
-    }
-
-    body {
-        background-size: 50%;
-        background-position-x: 95%;
-        background-position-y: -5%;
-    }
-
-    .section-background .button {
-        display: grid;
-        padding-left: 36%;
-        position: absolute;
-    }
-
-}
-
-@media only screen and (max-device-width: 1024px) {
-    .section-background {
-        width: 400px;
-        height: 350px;
-        margin-top: 40%;
-        margin-left: 10%;
-        text-align: center;
-    }
-
-    body {
-        background-size: 50%;
-        background-position-x: 95%;
-        background-position-y: -60%;
-    }
-
-    .section-background .button {
-        display: grid;
-        padding-left: 36%;
-        position: absolute;
-    }
-
-}
-
-@media only screen and (max-device-width: 950px) {
-    .section-background {
-        width: 300px;
-        height: 250px;
-        margin-top: 12%;
-        margin-left: 10%;
-        text-align: center;
-        border: none;
-        box-shadow: none;
-    }
-
-    body {
-        background-size: 50%;
-        background-position-x: 95%;
-        background-position-y: -5%;
-    }
-
-    .section-background .button {
-        display: grid;
-        padding-left: 31%;
-        position: absolute;
-    }
-
-}
-
-@media only screen and (max-device-width: 800px) {
-
-    body {
-        background-size: 50%;
-        background-position-x: 95%;
-        background-position-y: -10%;
-    }
-
-}
-
-@media only screen and (max-device-width: 768px) {
-
-    .section-background {
-        margin-top: 20%;
-        margin-left: 30%;
-    }
-
-    body {
-        background-size: 60%;
-        background-position-x: 50%;
-        background-position-y: -90%;
-    }
-
-}
-
-@media only screen and (max-device-width: 700px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 23%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
+        background-size: 100%;
+        background-position-x: right;
         background-position-y: -50%;
     }
-
 }
 
-@media only screen and (max-device-width: 600px) {
 
-    .section-background {
-        margin-top: 8%;
-        margin-left: 25%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -50%;
-    }
-
-}
-
-@media only screen and (max-device-width: 540px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 20%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -60%;
-    }
-
-}
-
-@media only screen and (max-device-width: 500px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 20%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -60%;
-    }
-
-}
-
-@media only screen and (max-device-width: 450px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 18%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -80%;
-    }
-
-}
-
-@media only screen and (max-device-width: 414px) {
-
-    .section-background {
-        margin-top: 20%;
-        margin-left: 13%;
-    }
-
-    body {
-        background-size: 90%;
-        background-position-x: 50%;
-        background-position-y: -100%;
-    }
-
-}
-
-@media only screen and (max-device-width: 411px) {
-
-    .section-background {
-        margin-top: 20%;
-        margin-left: 13%;
-    }
-
-    body {
-        background-size: 90%;
-        background-position-x: 50%;
-        background-position-y: -100%;
-    }
-
-}
-
-@media only screen and (max-device-width: 400px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 13%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -90%;
-    }
-
-}
-
-@media only screen and (max-device-width: 375px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 8%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -95%;
-    }
-
-}
-
-@media only screen and (max-device-width: 360px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 6%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -95%;
-    }
-
-}
-
-@media only screen and (max-device-width: 350px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 9%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -95%;
-    }
-
-}
-
-@media only screen and (max-device-width: 320px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 2%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -120%;
-    }
-
-}
-
-@media only screen and (max-device-width: 300px) {
-
-    .section-background {
-        margin-top: 8%;
-        margin-left: 2%;
-    }
-
-    body {
-        background-size: 80%;
-        background-position-x: 50%;
-        background-position-y: -120%;
-    }
-
-}
-
-@media only screen and (max-device-width: 250px) {
-
-    .section-background {
-        margin-top: 40%;
-        margin-left: -10%;
-    }
-
-    body {
-        background-image: none;
-    }
-
-}
 
