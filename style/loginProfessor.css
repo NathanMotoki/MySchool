@@ -151,6 +151,13 @@ body {
     }
 }
 
+@media screen and (max-width: 338px) {
+
+    .duvidas {
+        margin-left: 120px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     body {
         background-position-x:-10%;
@@ -170,6 +177,6 @@ body {
     }
 
     .duvidas {
-        margin-left: 120px;
+        margin-left: 110px;
     }
 }
