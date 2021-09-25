@@ -38,7 +38,6 @@ body {
 
 @media screen and (max-width: 768px) {
     .section-background {
-
         margin: auto;
         margin-top: 15%;
         margin-left: 5%;
@@ -46,7 +45,7 @@ body {
 
     body {
         background-position:right;
-        background-position-y: -20%;
+        background-position-y: -25%;
     }
 }
 
@@ -56,6 +55,7 @@ body {
     }
     .button {
         margin: auto;
+        margin-left: 12%;
     }
 
     body {
