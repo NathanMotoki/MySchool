@@ -1,5 +1,6 @@
 .navegacao {
     background-color: rgba(122, 0, 153, 0.336);
+    background-image: linear-gradient(to right, rgb(119, 0, 255),rgb(247, 0, 255) );
     height: 50px;
 }
 
@@ -15,7 +16,7 @@
 }
 
 .coluna-um {
-    background-color: rgba(122, 0, 153, 0.336);
+    background-image: linear-gradient(150deg, rgb(119, 0, 255),rgb(247, 0, 255) );
     width: 100%;
     height: 619px;
     border-right: 1px solid rgba(0, 0, 0, 0.048);
