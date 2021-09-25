@@ -44,8 +44,9 @@ body {
 }
 
 .form-control {
-    width: 500px;
+    width: 400px;
 }
+
 .entrar{
     color: white;
     text-decoration: none;
@@ -53,4 +54,122 @@ body {
 
 .entrar:hover{
     color: white;
+}
+
+.duvidas {
+    font-size: 15px; 
+    margin-left: 350px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-position-x:-50%;
+        background-position-y: 200px;
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 12%;
+    }
+
+    .form-control {
+        width: none;
+    }
+
+    .duvidas {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-position-x:-10%;
+        background-position-y: 50%;
+        background-size: 100%;
+        
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 12%;
+        margin-bottom: 20%;
+    }
+
+    .form-control {
+        width: none;
+    }
+
+    .duvidas {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background-position-x:-10%;
+        background-position-y: 50%;
+        background-size: 100%;
+        
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+
+    .form-control {
+        width: none;
+    }
+
+    .duvidas {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-position-x:-10%;
+        background-position-y: 50%;
+        background-size: 100%;
+        
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+
+    .form-control {
+        width: none;
+    }
+
+    .duvidas {
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        background-position-x:-10%;
+        background-position-y: 50%;
+        background-size: 100%;
+        
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+
+    .form-control {
+        width: none;
+    }
+
+    .duvidas {
+        margin-left: 120px;
+    }
 }
