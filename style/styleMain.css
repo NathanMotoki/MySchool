@@ -54,12 +54,11 @@ body {
         display: none;
     }
     .button {
-        margin: auto;
-        margin-left: 12%;
+        margin-left:auto ;
     }
 
     body {
-        background-size: 100%;
+        background-size: 80%;
         background-position-x: right;
         background-position-y: -50%;
     }
