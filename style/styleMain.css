@@ -54,7 +54,7 @@ body {
         display: none;
     }
     .button {
-        margin-left:auto ;
+        margin-left:25% ;
     }
 
     body {
@@ -63,6 +63,7 @@ body {
         background-position-y: -50%;
     }
 }
+
 
 
 
