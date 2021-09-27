@@ -1,5 +1,6 @@
 .navegacao {
     background-color: rgba(0, 162, 255, 0.267);
+    background-image: linear-gradient(to right, rgba(0, 60, 255, 0.404), rgba(0, 162, 255, 0.267));
     height: 50px;
 }
 
@@ -15,7 +16,7 @@
 }
 
 .coluna-um {
-    background-color: rgba(0, 162, 255, 0.267);
+    background-image: linear-gradient(180deg, rgba(0, 60, 255, 0.514), rgba(0, 162, 255, 0.747));
     width: 100%;
     height: 619px;
     border-right: 1px solid rgba(0, 0, 0, 0.048);
@@ -27,7 +28,9 @@
 }
 
 .coluna-um a {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 50px;
 }
 
 .coluna-um a:active {
@@ -85,6 +88,20 @@ li {
 
 .coluna-cinco-text a {
     padding-right: 97px;
+}
+
+.sair {
+    color: white;
+    background-color: none;
+    margin-top: 92%;
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.541);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+
 }
 
 
