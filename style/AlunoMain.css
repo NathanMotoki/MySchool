@@ -50,6 +50,10 @@
     background-position: center;
 }
 
+.text {
+    cursor: pointer;
+}
+
 .coluna-tres {
     width: 100%;
     
@@ -65,28 +69,30 @@ li {
       padding-right: 10px;
   }
 
+
 .geral a {
     text-decoration: none;
     padding: 10px;
 }
 
-.coluna-um-text a {
+.coluna-um-text text{
     padding-right: 50%;
+    cursor: pointer;
 }
 
-.coluna-dois-text a {
+.coluna-dois-text text{
     padding-right: 126px;
 }
 
-.coluna-tres-text a {
+.coluna-tres-text text{
     padding-right: 147px;
 }
 
-.coluna-quatro-text a {
+.coluna-quatro-text text{
     padding-right: 120px;
 }
 
-.coluna-cinco-text a {
+.coluna-cinco-text text{
     padding-right: 97px;
 }
 
@@ -100,9 +106,56 @@ li {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 768px) {
+    .coluna-um-text a {
+        padding-right: 10px;
+    }
+    
+    .coluna-dois-text a {
+        padding-right: 10px;
+    }
+    
+    .coluna-tres-text a {
+        padding-right: 10px;
+    }
+    
+    .coluna-quatro-text a {
+        padding-right: 10px;
+    }
+    
+    .coluna-cinco-text a {
+        padding-right: 2px;
+    }
 
+    .coluna-tres img {
+        width: 20px;
+        height: 20px;
+    }
+    .coluna-um {
+        height: 600px;
+    }
+    .sair {
+        margin-top: 45%;
+    }
 }
+
+@media screen and (max-width: 670px) {
+    .coluna-um {
+        height: 470px;
+    }
+    .text{
+        display: none;
+    }
+    .geral {
+        grid-template-columns: 10% 80% 10%;
+    }
+    .sair i{
+        display: none;
+    }
+}
+
+
+
 
 
 
